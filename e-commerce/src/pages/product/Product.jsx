@@ -9,7 +9,7 @@ import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import{publicRequest} from "../../requestMethods";
 import { addProduct } from "../../redux/cartRedux"
-import { UseDispatch, useDispatch } from "react-redux";
+import {  useDispatch } from "react-redux";
 
 const FilterColor=styled.div`
      width:20px;
