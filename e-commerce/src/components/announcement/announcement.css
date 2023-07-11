@@ -1,0 +1,15 @@
+.announcement-container {
+  height: 30px;
+  background-color: coral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: 14px;
+  font-weight: 500;
+}
+@media (max-width: 360px) {
+  .announcement-container {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=announcement.css.map */

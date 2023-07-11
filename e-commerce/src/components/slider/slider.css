@@ -1,0 +1,53 @@
+.Slider-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 360px) {
+  .Slider-container {
+    display: none;
+  }
+}
+.Slider-container .wrapper {
+  height: 100%;
+  display: flex;
+  transition: all 1.5s ease;
+}
+.Slider-container .wrapper .slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.Slider-container .wrapper .ImgContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.Slider-container .wrapper .ImgContainer img {
+  height: 90%;
+  float: right;
+}
+.Slider-container .wrapper .InfoContainer {
+  flex: 1;
+  padding: 50px;
+}
+.Slider-container .wrapper .InfoContainer .title {
+  font-size: 70px;
+}
+.Slider-container .wrapper .InfoContainer .desc {
+  margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.Slider-container .wrapper .InfoContainer .button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(252, 252, 204);
+  cursor: pointer;
+}/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,57 @@
+@import "../../global.scss";
+.ProductList-container{
+
+
+    
+    .title{
+
+        margin: 20px;
+
+    }
+    .filterContainer{
+
+        display: flex;
+        justify-content: space-between;
+
+        .filter{
+            margin: 20px;
+            @include mobile{
+                margin: 0px 20px;
+                display: flex;
+                flex-direction: column;
+  
+               }
+
+            .filtertext{
+                font-size: 20px;
+                font-weight: 600;
+                margin-right: 20px;
+                @include mobile{
+                    margin-right: 0px;
+                   
+                      
+                   }
+                }
+
+                .select{
+
+                    padding: 10px;
+                    margin-right: 20px;
+                    @include mobile{
+                        margin-top: 10px;
+                       
+                          
+                       }
+                   
+                }
+    
+            
+            
+            
+        }
+       
+       
+
+    }
+
+}

@@ -1,0 +1,35 @@
+.categoryItem-container {
+  flex: 1;
+  margin: 3px;
+  height: 70vh;
+  position: relative;
+}
+.categoryItem-container .imagecategoryItem {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.categoryItem-container .infoItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.categoryItem-container .infoItem .title {
+  color: rgb(121, 108, 108);
+  margin-bottom: 20px;
+}
+.categoryItem-container .infoItem .button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+  font-weight: 600;
+}/*# sourceMappingURL=catogaryItem.css.map */

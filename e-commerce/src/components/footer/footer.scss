@@ -1,0 +1,88 @@
+@import "../../global.scss";
+.fotter-container{
+    display: flex;
+    @include mobile{
+     flex-direction: column;      
+    }
+
+    .left{
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        .logo{
+
+        }
+        .desc{
+
+            margin: 20px 0px;
+
+
+        }
+        .socialsites{
+            display: flex;
+
+            .socialicon{
+
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+    }
+    .centre{
+        flex: 1;
+        padding: 20px;
+        @include mobile{
+         display: none;  
+        }
+
+        .title{
+            margin-bottom: 30px;
+
+        }
+
+        .list{
+
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            .listitem{
+
+                width: 50%;
+                margin-bottom: 10px;
+
+
+
+            }
+        }
+
+    }
+    .right{
+        flex: 1;
+        padding: 20px;
+       
+
+        .title{
+            margin-bottom: 20px;
+        }
+        .contactitem{
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+
+        }
+        .payment{
+
+        }
+    }
+    
+}

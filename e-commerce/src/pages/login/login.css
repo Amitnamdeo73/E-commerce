@@ -1,0 +1,57 @@
+.Login-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../login/pexal.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login-container .l-wrapper {
+  padding: 20px;
+  width: 25%;
+  max-width: 25%;
+  background-color: whitesmoke;
+}
+@media (max-width: 360px) {
+  .Login-container .l-wrapper {
+    width: 75%;
+    max-width: none;
+  }
+}
+.Login-container .l-wrapper .title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.Login-container .l-wrapper .L-Form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.Login-container .l-wrapper .L-Form .L-Input {
+  flex: 1;
+  height: 40px;
+  margin: 10px 0px;
+}
+.Login-container .l-wrapper .L-Form button {
+  margin-top: 10px;
+  width: 40%;
+  height: 40px;
+  border: none;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Login-container .l-wrapper .L-Form button:disabled {
+  color: green;
+  cursor: not-allowed;
+}
+.Login-container .l-wrapper .L-Form a {
+  margin: 5px 0px;
+  font-size: 12px;
+  cursor: pointer;
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,10 @@
+.Categories-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 360px) {
+  .Categories-container {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=categories.css.map */

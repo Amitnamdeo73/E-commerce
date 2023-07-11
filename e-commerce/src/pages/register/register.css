@@ -1,0 +1,41 @@
+.Register-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../register/pexal.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Register-container .R-wrapper {
+  padding: 20px;
+  width: 40%;
+  background-color: white;
+}
+@media (max-width: 360px) {
+  .Register-container .R-wrapper {
+    width: 75%;
+  }
+}
+.Register-container .R-wrapper .title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.Register-container .R-wrapper .R-Form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Register-container .R-wrapper .R-Form .R-Input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+}
+.Register-container .R-wrapper .R-Form button {
+  margin-top: 10px;
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=register.css.map */

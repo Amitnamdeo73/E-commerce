@@ -1,0 +1,62 @@
+.fotter-container {
+  display: flex;
+}
+@media (max-width: 360px) {
+  .fotter-container {
+    flex-direction: column;
+  }
+}
+.fotter-container .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.fotter-container .left .desc {
+  margin: 20px 0px;
+}
+.fotter-container .left .socialsites {
+  display: flex;
+}
+.fotter-container .left .socialsites .socialicon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.fotter-container .centre {
+  flex: 1;
+  padding: 20px;
+}
+@media (max-width: 360px) {
+  .fotter-container .centre {
+    display: none;
+  }
+}
+.fotter-container .centre .title {
+  margin-bottom: 30px;
+}
+.fotter-container .centre .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fotter-container .centre .list .listitem {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.fotter-container .right {
+  flex: 1;
+  padding: 20px;
+}
+.fotter-container .right .title {
+  margin-bottom: 20px;
+}
+.fotter-container .right .contactitem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=footer.css.map */

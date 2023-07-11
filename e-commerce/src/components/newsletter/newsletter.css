@@ -1,0 +1,47 @@
+.newsl-container {
+  height: 60vh;
+  background-color: #fcf5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.newsl-container .title {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.newsl-container .desc {
+  font-size: 24px;
+  font-weight: 300px;
+  margin-bottom: 20px;
+}
+@media (max-width: 360px) {
+  .newsl-container .desc {
+    text-align: center;
+  }
+}
+.newsl-container .inputcontainer {
+  width: 50%;
+  height: 40px;
+  border-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+@media (max-width: 360px) {
+  .newsl-container .inputcontainer {
+    width: 80%;
+  }
+}
+.newsl-container .inputcontainer .input {
+  border: none;
+  flex: 8;
+  padding-left: 20px;
+}
+.newsl-container .inputcontainer button {
+  flex: 1;
+  border: none;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=newsletter.css.map */
