@@ -1,4 +1,3 @@
-import { popularProduct } from "../data"
 import "./Products.scss"
 import Product from "../product/Product"
 import { useEffect, useState } from "react"
@@ -42,7 +41,7 @@ useEffect(()=>{
       [...prev].sort((a,b)=> b.price - a.price)
      })  
   }
-});
+},[sort]);
 
 
   return (
