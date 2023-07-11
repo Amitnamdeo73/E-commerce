@@ -28,7 +28,7 @@ login(dispatch,{username,passward})
            <input placeholder="Password" className="L-Input" type="password" onChange={(e)=>setPassward(e.target.value)}/> 
            <button type="submit" onClick={handleClick} disabled={isFetching}>LOGIN</button>
            {error && <Error>Somthing went wrong...</Error>}
-           <a href="">FORGET PASSWORD</a>
+           <a href="../register/Register.jsx">FORGET PASSWORD</a>
            <a href="../register/Register.jsx">CREATE A NEW ACCOUNT</a>
         </form>
         </div>  
